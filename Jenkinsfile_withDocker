@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'bibinwilson/jenkins-slave:latest' } }
+    agent { docker { image 'jenkinsslave:latest' } }
     
     stages {
         stage ('Compile Stage') {
