@@ -54,21 +54,6 @@
         </dependency>
 
     </dependencies>
-         
-         <settings>
-    <servers>
-        <server>
-            <id>myMavenRepo.read</id>
-            <username>myMavenRepo</username>
-            <password>benben</password>
-        </server>
-        <server>
-            <id>myMavenRepo.write</id>
-            <username>myMavenRepo</username>
-            <password>benben</password>
-        </server>
-    </servers>
-</settings>
 
     <repositories>
         <repository>
