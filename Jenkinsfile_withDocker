@@ -1,5 +1,9 @@
 pipeline {
-    agent { docker { image 'jenkinsslave:latest' } }
+    agent {
+        node { 
+            label 'java-docker-slave'
+        } 
+    }
     
     stages {
         stage ('Compile Stage') {
