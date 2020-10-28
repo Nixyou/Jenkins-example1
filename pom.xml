@@ -54,6 +54,21 @@
         </dependency>
 
     </dependencies>
+         
+         <settings>
+    <servers>
+        <server>
+            <id>myMavenRepo.read</id>
+            <username>myMavenRepo</username>
+            <password>${yourHttpAuthReadPassword}</password>
+        </server>
+        <server>
+            <id>myMavenRepo.write</id>
+            <username>myMavenRepo</username>
+            <password>${yourHttpAuthWritePassword}</password>
+        </server>
+    </servers>
+</settings>
 
     <repositories>
         <repository>
