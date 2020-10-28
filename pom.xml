@@ -60,12 +60,12 @@
         <server>
             <id>myMavenRepo.read</id>
             <username>myMavenRepo</username>
-            <password>${yourHttpAuthReadPassword}</password>
+            <password>benben</password>
         </server>
         <server>
             <id>myMavenRepo.write</id>
             <username>myMavenRepo</username>
-            <password>${yourHttpAuthWritePassword}</password>
+            <password>benben</password>
         </server>
     </servers>
 </settings>
